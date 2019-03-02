@@ -60,5 +60,5 @@ def get_average_age_for_season(data, season)
       end 
     end 
   end 
-  (array_of_ages.inject{ |sum, el| sum + el }.to_f / array_of_ages.size).to_nearest_i
+  (array_of_ages.inject{ |sum, el| sum + el }.to_f / array_of_ages.size).round
 end
