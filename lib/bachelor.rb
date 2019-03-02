@@ -51,6 +51,7 @@ def get_occupation(data, hometown)
 end
 
 def get_average_age_for_season(data, season)
+ total = 0 
  array_of_ages = []
   data.each do |season_number, data_array|
     if season_number == season 
@@ -60,5 +61,6 @@ def get_average_age_for_season(data, season)
     end 
   end 
 total = array_of_ages.each do |age|
+  
 end 
 end
