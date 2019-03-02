@@ -47,7 +47,7 @@ def get_occupation(data, hometown)
       end 
     end 
   end
-  array_of_contestants.length
+  occupation
 end
 
 def get_average_age_for_season(data, season)
