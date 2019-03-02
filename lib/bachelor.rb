@@ -34,7 +34,8 @@ def count_contestants_by_hometown(data, hometown)
         array_of_contestants << person["name"]
       end 
     end 
-  end 
+  end
+  array_of_contestants.length
 end
 
 def get_occupation(data, hometown)
