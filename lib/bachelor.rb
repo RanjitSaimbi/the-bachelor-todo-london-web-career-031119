@@ -56,7 +56,7 @@ def get_average_age_for_season(data, season)
   data.each do |season_number, data_array|
     if season_number == season 
       data_array.each do |person|
-        array_of_ages << person["age"]
+        array_of_ages << person["age"].to_i
       end 
     end 
   end 
